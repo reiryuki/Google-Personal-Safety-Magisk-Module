@@ -14,7 +14,7 @@
 - https://t.me/ryukinotes/26
 
 ## Requirements
-- ARM64 is for arm64-v8a architecture only
+- ARM64 is for arm64-v8a architecture only (it has higher app version)
 - The other is for all architectures
 - Min31 is for SDK 31 and up
 - Min29 is for SDK 29 and up
@@ -34,6 +34,9 @@
 ## Troubleshootings
 - Global: https://t.me/androidryukimodsdiscussions/29836
 
+## Known Issue
+- Emergency SOS cannot be activated
+
 ## Support & Bug Report
 - https://t.me/androidryukimodsdiscussions/2618
 - If you don't do above, issues will be closed immediately
@@ -44,6 +47,6 @@
 - You can contribute ideas about this Magisk Module here: https://t.me/androidappsportdevelopment
 
 ## Sponsors
-- https://t.me/androidryukimodsdiscussions/2619
+- https://t.me/ryukinotes/25
 
 
