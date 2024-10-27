@@ -6,6 +6,7 @@
 
 ## Descriptions
 - Emergency and safety app by Google LLC integrated as a Magisk Module for all supported and rooted devices with Magisk
+- This app is used for emergency information while phone is locked
 
 ## Sources
 - https://apkmirror.com com.google.android.apps.safetyhub by Google LLC
@@ -14,8 +15,8 @@
 - https://t.me/ryukinotes/26
 
 ## Requirements
-- ARM64 is for arm64-v8a architecture only (it has higher app version)
-- The other is for all architectures
+- arm64-v8a is for arm64-v8a architecture only (it has higher app version)
+- The other is for all architectures (it has lower app version)
 - Min31 is for SDK 31 and up
 - Min29 is for SDK 29 and up
 - GApps installed
@@ -29,10 +30,10 @@
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (and your home launcher app also) (enable show system apps) and reboot afterwards
 
 ## Optionals
-- Global: https://t.me/androidryukimodsdiscussions/60861
+- Global: https://t.me/ryukinotes/35
 
 ## Troubleshootings
-- Global: https://t.me/androidryukimodsdiscussions/29836
+- Global: https://t.me/ryukinotes/34
 
 ## Known Issue
 - Emergency SOS cannot be activated
