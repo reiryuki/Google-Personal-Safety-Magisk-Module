@@ -32,20 +32,9 @@ fi
 # grant
 PKG=com.google.android.apps.safetyhub
 if appops get $PKG > /dev/null 2>&1; then
-  pm grant $PKG android.permission.ACCESS_FINE_LOCATION
-  pm grant $PKG android.permission.ACCESS_COARSE_LOCATION
-  pm grant $PKG android.permission.ACCESS_BACKGROUND_LOCATION
-  pm grant $PKG android.permission.ANSWER_PHONE_CALLS
-  pm grant $PKG android.permission.READ_PHONE_STATE
-  pm grant $PKG android.permission.CALL_PHONE
-  pm grant $PKG android.permission.READ_CONTACTS
-  pm grant $PKG android.permission.WRITE_CONTACTS
-  pm grant $PKG android.permission.CAMERA
-  pm grant $PKG android.permission.ACTIVITY_RECOGNITION
-  pm grant $PKG android.permission.RECORD_AUDIO
+  pm grant --all-permissions $PKG
   appops set $PKG SYSTEM_ALERT_WINDOW allow
   if [ "$API" -ge 33 ]; then
-    pm grant $PKG android.permission.POST_NOTIFICATIONS
     appops set $PKG ACCESS_RESTRICTED_SETTINGS allow
   fi
   APP=SafetyHubSuwPrebuilt
