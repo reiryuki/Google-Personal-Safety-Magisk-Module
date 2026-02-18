@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <config>
+    <initial-package-state package="com.google.android.apps.safetyhub" stopped="false"/>
     <hidden-api-whitelisted-app package="com.google.android.apps.safetyhub"/>
     <allow-in-power-save package="com.google.android.apps.safetyhub"/>
 </config>
