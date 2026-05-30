@@ -15,9 +15,4 @@ set -x
 remove_cache
 remove_sepolicy_rule
 
-# restore
-#RFILE=`find /data/system /data/misc* -type f -name roles.xml`
-#Rchmod 0600 $FILE
-#Rsed -i 's|com.google.android.apps.safetyhub|com.android.emergency|g' $FILE
-
 

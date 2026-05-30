@@ -197,7 +197,8 @@ for NAME in $NAMES; do
    /persist/magisk/$NAME\
    /data/unencrypted/magisk/$NAME\
    /cache/magisk/$NAME\
-   /cust/magisk/$NAME
+   /cust/magisk/$NAME\
+   /klogdump/magisk/$NAME
 done
 }
 
@@ -341,22 +342,6 @@ hide_app
 
 # unmount
 unmount_mirror
-
-# permission
-ui_print "- Changing default emergency app to this Personal Safety"
-ui_print "  Please wait..."
-FILE=`find /data/system /data/misc* -type f -name roles.xml`
-NAME=com.android.emergency
-if grep -q $NAME $FILE; then
-  sed -i "s|$NAME|com.google.android.apps.safetyhub|g" $FILE
-  sed -i 's|#R||g' $MODPATH/uninstall.sh
-  ui_print "  Done"
-  ui_print "  The default emergency app will be restored"
-  ui_print "  only if you have removed this module"
-  ui_print "  via Magisk/KernelSU app"
-fi
-ui_print " "
-
 
 
 
