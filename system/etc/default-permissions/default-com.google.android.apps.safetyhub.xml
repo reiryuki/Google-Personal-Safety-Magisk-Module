@@ -13,7 +13,6 @@
         <permission name="android.permission.READ_CONTACTS" fixed="true"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="true"/>
         <permission name="android.permission.ACTIVITY_RECOGNITION" fixed="true"/>
+        <permission name="android.permission.SEND_SMS" fixed="true"/>
     </exception>
 </exceptions>
-
-
