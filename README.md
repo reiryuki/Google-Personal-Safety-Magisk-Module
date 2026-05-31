@@ -41,9 +41,9 @@ https://t.me/ryukinotes/26
 ## Installation Guide & Download Link
 - If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs or https://github.com/KernelSU-Modules-Repo/magic_mount_rs or https://github.com/KernelSU-Modules-Repo/hybrid_mount first depending on ROM compatibility
 - Download the right module according to your device architecture and Android version:
-  - arm64-v8a Minimum SDK 31:
-  - arm64-v8a (LPR version) Minimum SDK 29:
-  - Universal (GMS version) Minimum SDK 31:
+  - arm64-v8a Minimum SDK 31: https://devuploads.com/a6k5bgkzh6zd
+  - arm64-v8a (LPR version) Minimum SDK 29: https://devuploads.com/xl4ah3u0bsp9
+  - Universal (GMS version) Minimum SDK 31: https://devuploads.com/wdqhx43t96rg
 - Install the module via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - Reboot
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (and your home launcher app also) (enable show system apps) and reboot afterwards
