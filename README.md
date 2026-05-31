@@ -51,11 +51,11 @@ https://t.me/ryukinotes/26
 
 `su -c cmd role get-role-holders android.app.role.EMERGENCY`
 
-  If the output is not com.google.android.apps.safetyhub like com.android.emergency or anything else, then you need to set com.google.android.apps.safetyhub as your default Emergency App:
+- If the output is not com.google.android.apps.safetyhub like com.android.emergency or anything else, then you need to set com.google.android.apps.safetyhub as your default Emergency App:
   
 `su -c cmd role add-role-holder android.app.role.EMERGENCY com.google.android.apps.safetyhub`
 
-  If you want to restore your default Emergency App, for example if it's com.android.emergency, then:
+- If you want to restore your default Emergency App, for example if it's com.android.emergency, then:
   
 `su -c cmd role add-role-holder android.app.role.EMERGENCY com.android.emergency`
 
