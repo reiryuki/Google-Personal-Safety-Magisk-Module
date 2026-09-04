@@ -14,6 +14,8 @@ https://apkmirror.com com.google.android.apps.safetyhub by Google LLC
 
 v0.6
 - Prepare /storage/emulated/"$USR"/Android/data/$PKG/ directories
+- Resets module folders/files permissions at post-fs-data
+- Move _uninstall.log to /data/adb/logs/
 
 v0.5
 - Set install-in-user-type config
@@ -71,9 +73,6 @@ Global: https://t.me/ryukinotes/35
 
 ## Troubleshootings
 Global: https://t.me/ryukinotes/34
-
-## Known Issue
-Emergency SOS cannot be activated
 
 ## Support & Bug Report
 - https://t.me/ryukinotes/54
