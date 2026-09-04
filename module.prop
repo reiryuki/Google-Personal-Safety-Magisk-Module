@@ -1,7 +1,7 @@
 id=GooglePersonalSafety
 name=Google Personal Safety
-version=v0.5
-versionCode=5
+version=v0.6
+versionCode=6
 author=Rei Ryuki the Fixer
 description=Emergency and safety app (com.google.android.apps.safetyhub) by Google LLC.
 

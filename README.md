@@ -12,6 +12,9 @@ https://apkmirror.com com.google.android.apps.safetyhub by Google LLC
 
 ## Changelog
 
+v0.6
+- Prepare /storage/emulated/"$USR"/Android/data/$PKG/ directories
+
 v0.5
 - Set install-in-user-type config
 
@@ -39,11 +42,11 @@ https://t.me/ryukinotes/26
 - Magisk or Kitsune Mask or KernelSU or Apatch installed
 
 ## Installation Guide & Download Link
-- If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs or https://github.com/KernelSU-Modules-Repo/magic_mount_rs or https://github.com/KernelSU-Modules-Repo/hybrid_mount first depending on ROM compatibility
+- If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs or https://github.com/KernelSU-Modules-Repo/magic_mount_rs or https://github.com/KernelSU-Modules-Repo/hybrid_mount or https://github.com/maxsteeel/nomount first depending on ROM compatibility
 - Download the right module according to your device architecture and Android version:
-  - arm64-v8a Minimum SDK 31: https://bicolink.com/ABtm
-  - arm64-v8a (LPR version) Minimum SDK 29: (Please tell me if you need it)
-  - Universal (GMS version) Minimum SDK 31: (Please tell me if you need it)
+  - arm64-v8a Minimum SDK 31: https://github.com/reiryuki/Google-Personal-Safety-Magisk-Module
+  - arm64-v8a (LPR version) Minimum SDK 29: https://github.com/reiryuki/Google-Personal-Safety-Magisk-Module
+  - Universal (GMS version) Minimum SDK 31: https://github.com/reiryuki/Google-Personal-Safety-Magisk-Module
 - Install the module via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - Reboot
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (and your home launcher app also) (enable show system apps) and reboot afterwards
@@ -58,6 +61,7 @@ https://t.me/ryukinotes/26
 - If you want to restore your default Emergency App, for example if it's com.android.emergency, then:
   
 `su -c cmd role add-role-holder android.app.role.EMERGENCY com.android.emergency`
+
 
 ## Download Tutorial
 https://t.me/ryukinotes/97
@@ -78,7 +82,7 @@ Emergency SOS cannot be activated
 ## Credits and Contributors
 - @HuskyDG
 - https://t.me/androidryukimodsdiscussions
-- You can contribute ideas about this Magisk Module here: https://t.me/androidappsportdevelopment
+- https://t.me/androidappsportdevelopment
 
 ## Sponsors
 https://t.me/ryukinotes/25
